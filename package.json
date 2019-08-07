@@ -1,0 +1,30 @@
+{
+  "name": "Traversy-Media-Learn-the-MERN-Stack",
+  "version": "1.0.0",
+  "description": "Shopping list built with the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sever": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeOfTheFuture/Traversy-Media-Learn-the-MERN-Stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeOfTheFuture/Traversy-Media-Learn-the-MERN-Stack/issues"
+  },
+  "homepage": "https://github.com/codeOfTheFuture/Traversy-Media-Learn-the-MERN-Stack#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
